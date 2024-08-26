@@ -1,0 +1,263 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --pink:rgb(230,46,102)
+}
+.i-b{
+     display: inline-block;
+}
+/*styling of banner*/
+ nav{
+     background-color: rgb(225,225,225); 
+     background: linear-gradient(to bottom,rgb(221,221,221)white);
+     height: 80px;
+     position: relative;
+     color: black;
+ }
+ nav a{
+    position: absolute;
+    right: 60px;
+    color: black;
+    top: 20px;
+    font-size: 2rem;
+ }
+ nav h1{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    font-weight:900;
+    font-family: cursive;
+ }
+ .Banner{
+    height: 687px;
+    background-image:url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/7ce49450bf4053c8bb7f3a48/ggg.jpg); 
+    background-size: cover;
+ }
+ .Banner-boxes{
+    width: 720px;
+    margin: auto;
+    padding-top:100px;
+ }
+ .outer-box{
+    width: 716px;
+    height: 333px;
+    background: linear-gradient(to top,rgb(174,187,196),225,232,232);
+    border-radius: 20px;
+    
+ }
+ .inner-box{
+    width: 538px;
+    height: 330px;
+    border-radius: 20px;
+    background-color: white;
+    left: 85px;
+    top: 80px;
+    position: relative;
+    padding: 30px;
+    text-align: center;
+ }
+
+ .inner-box h1{
+    font-size: 4.5rem;
+    font-family:"Montserrat", sans-serif; 
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 20px 1px 0px;
+    color: rgb(230,46,102);
+    text-transform: none;
+ }
+ .inner-box p{
+    font-size: 1.125rem;
+    letter-spacing: normal;
+    margin: 19px 1px 0;
+ }
+ .Main{
+   background-image: linear-gradient(#fdebee,#b2c8f3);
+ }
+ .container{
+    margin-inline: 100px;
+ }
+ .left{
+    margin-right: 30px;
+    width: 35%;
+ }
+ .left-content{
+    bottom: 220px;
+    position: relative;
+ }
+ .left h1{
+    font-size: 3rem;
+    color: var(--pink);
+    margin-block:50px;
+ }
+ .left p{
+     font-size: 1.5rem;
+     font-style: normal;
+     line-height: 2.5rem;
+ }
+ .left button{
+    background-color:var(--pink) ;
+    padding: 15px 30px;
+    letter-spacing: 3px;
+    margin-top: 40px;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    border-radius: 50px;
+ }
+ .right{
+   width: 60%;
+   padding-top: 70px;
+   padding-left: 130px;
+ }
+ .right-content{
+    width: 600px;
+    margin: auto;
+ }
+ .box{
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+ }
+ .box-1-r1{
+    width:270px;
+    height: 450px;
+    padding: 30px 25px;
+ }
+ .box-2-r1{
+    width: 270px;
+    padding: 30px 25px;
+    height: 390px;
+ }
+ .box-1-r2{
+    width: 270px;
+    padding: 30px 25px;
+    height: 390px;
+ }
+ .box-2-r2{
+    width: 270px;
+    padding: 30px 25px;
+    height: 450px;
+    position: relative;
+    bottom: 60px;
+ }
+ .box-content{
+    text-align: center;
+ }
+ .circle{
+   width: 80px;
+   border-radius: 50%;
+   padding-top: 20px;
+   background-color: #86a4e6;
+   margin: auto;
+   height: 80px;
+   font-size: 2rem;
+ }
+ .box-button button{
+    background-color: var(--pink);
+    margin-block:20px;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 15px;
+    color: white;
+ }
+ .box-content h2{
+    font-weight: lighter;
+    color: #0697f8;
+ }
+ .box-content p{
+    color: #525252;
+    margin-block:20px;
+    line-height: 20px;
+    font-style: italic;
+ }
+ .more{
+    background: none;
+    border: none;
+    border-bottom: 1px Solid rgb(35,122,252);
+    color: rgb(53,52,52);
+    font-size:1.2rem;
+ }
+ .hover:hover{
+       background: none;
+       border: 1.5px Solid var(--pink);
+       color: var(--pink);
+ }
+ /* For table*/
+ @media(min-width:425px) and (max-width:768){
+    .nicepage{
+        min-width: 768px;
+    }
+    .main{
+        padding-block: 90px;
+    }
+    .left{
+        width: 100%;
+        display: block;
+    }
+    .left-Content{
+        position: static;
+    }
+    .left-Content h1{
+        margin-top: 0px;
+    }
+    .right{
+        width: 100%;
+        padding: 0;
+        padding-top: 80px;
+        display: block;
+    }
+    .right-content{
+        width: 100%;
+    }
+    .container{
+        margin-inline:50px;
+    }
+    .box{
+        width: 46%;
+    }
+
+ }
+ /*for mobile*/
+ @media(max-width:425px){
+    .nicepage{
+        min-width: 768px;
+    }
+    .main{
+        padding-block: 90px;
+    }
+    .left{
+        width: 100%;
+        display: block;
+    }
+    .left-Content{
+        position: static;
+    }
+    .left-Content h1{
+        margin-top: 0px;
+    }
+    .right{
+        width: 100%;
+        padding: 0;
+        padding-top: 80px;
+        display: block;
+    }
+    .box{
+      width: 100%;
+    }
+    .right-content{
+        width: 100%;
+    }
+    .container{
+        margin-inline:100px;
+    }
+    .box-2-r2{
+        position: relative;
+        top: 0px;
+    }
+
+ }
